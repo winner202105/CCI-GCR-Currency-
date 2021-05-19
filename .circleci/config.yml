@@ -1,0 +1,20 @@
+version: 2.1
+
+jobs:
+  build_api:
+    docker:
+      - image: 'cimg/node:current'
+    steps:
+      - checkout
+      - run:
+          command: npm install
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - node_modules/*
+
+workflows:
+  version: 2
+  my_workflow_for_currency:
+    jobs:
+      - build_api
