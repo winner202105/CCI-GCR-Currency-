@@ -1,0 +1,22 @@
+{
+  "name": "cci-gcr-currency0517",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfunaki/CCI-GCR-Currency0517.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfunaki/CCI-GCR-Currency0517/issues"
+  },
+  "homepage": "https://github.com/mfunaki/CCI-GCR-Currency0517#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
